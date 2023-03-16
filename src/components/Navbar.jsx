@@ -29,7 +29,7 @@ export default function Navbar() {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      } w-full flex items-center py-3 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -45,10 +45,10 @@ export default function Navbar() {
           <img
             src={myLogo}
             alt="logo"
-            className="w-20 object-contain ml-[-1.5rem]"
+            className="w-[4.5rem] object-contain ml-[-1.5rem]"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            JavaScript Developer
+          <p className="text-secondary text-[18px] font-bold cursor-pointer flex ">
+            JS Developer
           </p>
         </Link>
 
