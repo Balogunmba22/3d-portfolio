@@ -13,7 +13,9 @@ export default function Hero() {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div
+        // className={` ${styles.paddingX} absolute inset-0 top-[90px] text-center`}
+        >
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I am <span className="text-[#915EFF]">Muhammed</span>
           </h1>
